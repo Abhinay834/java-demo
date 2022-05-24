@@ -10,7 +10,7 @@ public class day3Uc5{
         {
             int empType = (int) (MATH.random() * 100) % 3;
             int workinghours =0;
-            switch (empType)
+            switch (empcheck)
             {
                 case FULL_TIME:
                     workinghours = 8;
